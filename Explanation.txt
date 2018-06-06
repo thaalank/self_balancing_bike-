@@ -1,0 +1,14 @@
+Attached is the sequence of steps for the bike from step to step
+
+
+Each row has state values in the following order:
+
+'X', 'Y', 'Omega', 'Omegadt', 'Theta', 'Thetadt', 'Psi', 'Action'
+
+Position, Position, angle of handle bars, angle of handle bars, angle of bike to horizontal, angle of bike to horizontal, ?,?
+
+Read each row using numpy and use values to guide bike
+
+Do they represent position x, position y, angle to destination, angle
+of bike, angle of bike handle, angular velocity of bike, angular
+velocity of bike handle?
